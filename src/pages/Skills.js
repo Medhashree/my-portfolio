@@ -40,7 +40,7 @@ const Skills = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto min-h-screen">
       {/* Categories Tabs */}
-      <div className="flex space-x-6 mb-8 justify-center">
+      <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mb-8">
         {Object.keys(skillsData).map((category) => (
           <button
             key={category}
