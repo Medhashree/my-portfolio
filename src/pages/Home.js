@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen flex justify-center items-center bg-transparent px-4"
+      className="min-h-screen flex justify-center items-center bg-transparent px-4"
     >
       <div className="text-center max-w-4xl space-y-6">
         <h1 className="font-bold text-white text-[5vw] sm:text-4xl md:text-5xl lg:text-6xl whitespace-nowrap">

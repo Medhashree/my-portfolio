@@ -16,12 +16,12 @@ function App() {
       <StarBackground />
       <Navbar />
       <div className="relative z-10 pt-20 space-y-24">
-        <section id="home"><Home /></section>
-        <section id="experience"><Experience /></section>
-        <section id="skills" className="scroll-mt-24"><Skills /></section>
-        <section id="projects"><Projects /></section>
-        <section id="education"><Education /></section>
-        <section id="contact"><Contact /></section>
+        <section id="home" className="pb-15"><Home /></section>
+        <section id="skills" className="scroll-mt-24 pb-15"><Skills /></section>
+        <section id="experience" className="scroll-mt-24 pb-20"><Experience /></section>
+        <section id="projects" className="scroll-mt-18 pb-15"><Projects /></section>
+        <section id="education" className="scroll-mt-24 pb-15"><Education /></section>
+        <section id="contact" className="scroll-mt-15 pb-15"><Contact /></section>
       </div>
       <Footer />
     </div>

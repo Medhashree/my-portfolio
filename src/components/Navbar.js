@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const sections = ["home", "experience", "skills", "projects", "education", "contact"];
+const sections = ["home", "skills", "experience", "projects", "education", "contact"];
 
 export default function Navbar() {
   const [active, setActive] = useState("home");

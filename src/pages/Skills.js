@@ -38,7 +38,7 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="p-8 max-w-4xl mx-auto min-h-screen">
       {/* Categories Tabs */}
       <div className="flex space-x-6 mb-8 justify-center">
         {Object.keys(skillsData).map((category) => (
